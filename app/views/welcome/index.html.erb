@@ -1,5 +1,7 @@
 <h1>Seja Bem Vindo</h1>
-<p> Hoje é: <%= date_format(Date.today) %></p>
+<%= locale(I18n.locale) %>
+<%= t('hello') %>
+<p> Hoje é: <%= I18n.l(Date.today) %></p>
 
 <ul>
   <li>
