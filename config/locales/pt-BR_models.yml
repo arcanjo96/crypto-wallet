@@ -1,0 +1,10 @@
+"pt-BR":
+  activerecord:
+    models:
+      coin:
+        one: Moeda
+        other: Moedas
+      mining_type: Tipo de Mineração
+    attributes:
+      coin:
+        description: Descrição
