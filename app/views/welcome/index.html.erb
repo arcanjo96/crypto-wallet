@@ -1,5 +1,8 @@
+<p><%= link_to 'Idioma Português', '/?locale=pt-BR' %></p>
+<p><%= link_to 'English', '/?locale=en' %></p>
+
 <h1>Seja Bem Vindo</h1>
-<h2><%= cookies[:hello] %></h2>
+<h2><%= cookies[:locale] %></h2>
 <%= t('actual_locale') %>
 <p> Hoje é: <%= I18n.l(Date.today) %></p>
 
