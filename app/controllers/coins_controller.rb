@@ -1,6 +1,6 @@
 class CoinsController < ApplicationController
   before_action :set_coin, only: [:show, :edit, :update, :destroy]
-  before_action :set_mining_type_options, only: [:show, :edit, :update]
+  before_action :set_mining_type_options, only: [:show, :edit, :update, :new]
 
   # GET /coins
   # GET /coins.json
